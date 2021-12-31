@@ -6,6 +6,7 @@ This is most useful to generate all the notes that you can import onto certain m
 
 ## [Click here to use the tool](https://adamcoulombe.github.io/cloneherotoxlights/)
 
+![Clone Hero to Xlights](https://adamcoulombe.github.io/cloneherotoxlights/cover.png)
 
 ## How to use
 
