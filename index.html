@@ -238,15 +238,6 @@
 
                                 }).trigger('change');
 
-                                
-
-
-
-
-                    
-
-
-
 
                     });
                     reader.readAsText(file)
@@ -263,117 +254,6 @@
                 });
 
                 dropArea.addEventListener('drop', handleFileUpload );
-
-
-
-
-
-
-
-
-                    // $.ajax({
-                    //     type: "GET",
-                    //     url: "songs/summer/notes.chart",
-                    //     cache: false,
-                    //     dataType: "text",
-                    //     success: function (data) {
-                    //         var chart = parseChart(data);
-                    //         // console.log(chart)
-                    //        var availableTracks=[];
-                    //         $.each(chart,(n,v)=>{
-                                
-                    //             if(n!="Song"&&n!="SyncTrack"&&n!="Events"){
-                    //                 availableTracks.push(n)
-                    //                 $('#available-tracks').append('<option value="'+n+'">'+n+'</option>')
-                    //             }
-                                
-                    //         })
-                    //         var track = availableTracks[0];
-
-                    //         $('#available-tracks').on('change',()=>{
-
-
-
-                    //             let currentBpm = parseFloat(chart.Song.Resolution);
-                    //             let res = parseFloat(chart.Song.Resolution);
-                    //             var noteBeats = {};
-                    //             var beat = 0;
-                    //             var beatNum = 0
-                    //             var beatTimestamp = 0
-                    //             //console.log(chart[track][chart[track].length-1][0]);
-                    //             while(beat<parseFloat(chart[track][chart[track].length-1][0])+res){
-                    //                 var beatBpm;
-                    //                 $.each(chart.SyncTrack,(l,syncItem)=>{
-                    //                     if(syncItem[0]>beat){
-                    //                         return;
-                    //                     }else{
-                    //                         beatBpm = parseFloat(syncItem[2])/1000;
-                    //                     }
-                    //                 });
-                    //             // console.log(beatBpm)
-                    //                 noteBeats[beat]= {
-                    //                     rawBeatId:beat,
-                    //                     bpm:beatBpm,
-                    //                     time:beatTimestamp
-                    //                 };
-                    //                 beatTimestamp+=60/beatBpm;
-                    //                 beatNum++;
-                    //                 beat+=res;
-                    //             }
-                    //             console.log(noteBeats)
-                    //             $.each(chart[track], (i, note) => {
-                    //                     var currentNoteBeat;
-                    //                     var noteRawId = parseFloat(note[0]);
-                    //                     $.each(noteBeats,function(m,noteBeat){
-                    //                         if(noteRawId>noteBeat.rawBeatId){
-                    //                             return;
-                    //                         }else{
-                                             
-                    //                             currentNoteBeat = noteBeat;
-                    //                         }
-                    //                     });
-                                           
-                    //                     let currentStrand = $(strands[note[
-                    //                         2]], root);
-                    //                     let rawNoteDuration = parseFloat(note[3]);
-                    //                     let noteDurationUnits = rawNoteDuration/res;
-                    //                     let currentBeatDuration = 60/currentNoteBeat.bpm;
-                    //                     let noteDuration = rawNoteDuration > 0 ?  noteDurationUnits * currentBeatDuration : currentBeatDuration ;
-                    //                     let currentNoteStartTime = currentNoteBeat.time + (currentBeatDuration* ( (noteRawId-currentNoteBeat.rawBeatId)/res ));
-                    //                     let effect = createEffect(
-                    //                         root,
-                    //                         currentStrand,
-                    //                         currentNoteStartTime * 1000,
-                    //                         (currentNoteStartTime +
-                    //                         noteDuration) *1000,
-                    //                         parseInt(note[2]) + 1
-                    //                     )
-                    //                     currentStrand.append(effect);
-                
-
-                    //             });
-                    //             $('#output').val(xmlToString(root));
-
-
-
-
-
-                    //         }).trigger('change');
-
-                            
-
-
-
-
-                    //     }
-                    // });
-
-
-
-
-
-
-
 
 
                 }

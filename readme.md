@@ -12,6 +12,14 @@ This is most useful to generate all the notes that you can import onto certain m
 
 Select a `notes.chart` file from your computer for the song you want to convert. You can then select the track (difficulty) and download the effects as an xsq file to import the effects onto your xlights layout.
 
+## Requirements
+
+A modern browser, tested only in Google Chrome
+
+## Limitations
+
+Currently only tested with Guitar Tracks. (Clone Hero also can have drum and lyric tracks that I have not tested much)
+
 ## Links
 
 [List of Available Songs from Community (With Chart files)](https://docs.google.com/spreadsheets/d/3B823ukxdVMocowo1s5XnT3tzciOfruhUVePENKc01o/edit#gid=0)
